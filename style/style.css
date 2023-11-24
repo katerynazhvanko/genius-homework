@@ -1,0 +1,164 @@
+/* Шрифти */
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2');
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2'); 
+  }
+
+
+:root{
+    --bg-color-primary: #faf4ea;
+    --bg-color-secondary:#819b57;
+    --title-color-primary:#a28268;
+    --title-color-secondary:#465929;
+    --text-color-primary: #31261a;
+    --text-color-secondary:#819b57;
+    --text-color-thirdly: #faf4ea;
+    --hover-color:#819b57;
+
+}
+  body{
+    background-color: var(--bg-color-primary);
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color-primary);
+  }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.visually-hidden{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* навігація */
+.nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--text-color-thirdly);
+}
+
+.nav-link:hover{
+    color: var(--hover-color);
+}
+
+
+/* головний заголовок */
+
+.hero{
+  background-image: url(../images/hero-section-background.jpg);
+}
+.hero-title{
+  font-size: 128px;
+  color: var(--text-color-thirdly);
+}
+
+.hero-title-modern{
+  color: var(--text-color-secondary);
+}
+
+/* переваги пекарні */
+.advantages-list{
+  background-color: var(--bg-color-secondary);
+}
+
+.advantages-item{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+ color: var(--text-color-thirdly);
+}
+
+/* традиції */
+.traditions-title{
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: var(--text-color-primary);
+}
+.traditions-text{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.traditions-text-accent{
+  font-weight: 600;
+  color: var(--text-color-secondary);
+}
+
+.traditions-img{
+  border-radius: 40% 40% 0 0;
+}
+/*команда */
+.chefs-title{
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: var(--text-color-primary);
+}
+
+.chefs-title-accent{
+  color: var(--title-color-secondary);
+}
+
+
+/*формати */
+
+.formats-title{
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: var(--text-color-primary);
+}
+
+
+/*контакти */
+
+.contacts-title{
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: var(--text-color-primary);
+}
+
+/* футер сторінки */
+.footer{
+  background-image: url(../images/footer-background.png);
+  background-repeat: no-repeat;
+}
